@@ -26,5 +26,16 @@ class Linked_list
     @size += 1
   end
 
-  
+  def get_node_index(i)
+    return nil if i > @size - 1
+    current = root
+    n = 0
+    while n != i
+      current = current.nextn
+      n += 1
+    end
+    current.data
+  end
+
+
 end

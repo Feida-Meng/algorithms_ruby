@@ -33,10 +33,13 @@ end
 p1 = [120,110,99,111,123,144,155,139,114,121,89]
 p2 = [150,120,120,133,93,144,144,20]
 p3 = [100,45,120,105,110,43,100,50,113,30,100]
+p4 = [100,45,33,31,27,25,19,15,13,7,2]
 #
 puts "min : #{max_profit(p1)[0]}, max : #{max_profit(p1)[1]}, max_profit : #{max_profit(p1)[2]}"
-# # puts "--------------"
-puts "min : #{max_profit(p2)[0]}, max : #{max_profit(p2)[1]}, max_profit : #{max_profit(p2)[2]}"
 # puts "--------------"
+puts "min : #{max_profit(p2)[0]}, max : #{max_profit(p2)[1]}, max_profit : #{max_profit(p2)[2]}"
+puts "--------------"
 puts "min : #{max_profit(p3)[0]}, max : #{max_profit(p3)[1]}, max_profit : #{max_profit(p3)[2]}"
+puts "--------------"
+puts "min : #{max_profit(p4)[0]}, max : #{max_profit(p4)[1]}, max_profit : #{max_profit(p4)[2]}"
 puts "--------------"

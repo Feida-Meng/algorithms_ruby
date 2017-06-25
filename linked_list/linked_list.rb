@@ -47,4 +47,9 @@ class Linked_list
 
   end
 
+  def middle
+    return get_node(@size/2) if @size/2 % 2 != 0
+    return [get_node(@size/2-1),get_node(@size/2)]
+  end
+
 end

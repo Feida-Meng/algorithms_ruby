@@ -37,5 +37,14 @@ class Linked_list
     current.data
   end
 
+  def show_all
+    return nil if @size == 0
+    current = @root
+    while current != nil
+      puts current.data
+      current = current.nextn
+    end
+
+  end
 
 end
